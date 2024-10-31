@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(92, 138, 237);
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+}
+
+.lang img {
+    width: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+}
+
+.logo {
+    color: #fff;
+}
+
+
+
+
+
+        .flag-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin-top: 20px;
+        }
+
+        .flag-container img {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+        }
+
+        .flag-container img:nth-child(1) { top: 0; left: 50%; transform: translateX(-50%); }
+        .flag-container img:nth-child(2) { top: 20%; right: 0; }
+        .flag-container img:nth-child(3) { top: 50%; right: 0; transform: translateY(-50%); }
+        .flag-container img:nth-child(4) { bottom: 20%; right: 0; }
+        .flag-container img:nth-child(5) { bottom: 0; left: 50%; transform: translateX(-50%); }
+        .flag-container img:nth-child(6) { bottom: 20%; left: 0; }
+        .flag-container img:nth-child(7) { top: 50%; left: 0; transform: translateY(-50%); }
+        .flag-container img:nth-child(8) { top: 20%; left: 0; }
+
+        .content {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .content h1 {
+            font-size: 24px;
+        }
+
+        .content p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+        }
